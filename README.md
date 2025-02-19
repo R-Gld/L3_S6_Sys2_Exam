@@ -11,7 +11,8 @@ make
 ```
 
 ## Usage
+- `<n>` an int in [2; 31]. The number of bit calculated.
 
 ```shell
-./build/
+./build/l3_s6_exam <n>
 ```
