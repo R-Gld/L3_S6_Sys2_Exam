@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.31)
-project(tp_note_n1 C)
+project(l3_s6_exam C)
 set(CMAKE_C_STANDARD 11)
 
 find_library(MATH_LIBRARY m)
 
-add_executable(tp_note_n1 main.c)
-target_link_libraries(tp_note_n1 ${MATH_LIBRARY})
+add_executable(l3_s6_exam main.c)
+target_link_libraries(l3_s6_exam ${MATH_LIBRARY})
